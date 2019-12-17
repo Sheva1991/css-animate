@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+a,
+button {
+    transition: all 0.4s ease-in;
+}
+
+.container {
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container a {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: darkorange;
+    font-size: 24px;
+}
