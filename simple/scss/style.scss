@@ -63,9 +63,9 @@ body {
     &__front {
         transform: rotateY(-180deg);
 
-        // &.active {
-        //     transform: rotateY(-360deg);
-        // }
+        .active & {
+            transform: rotateY(-360deg);
+        }
     }
 
     &__back {
@@ -75,9 +75,9 @@ body {
         background-size: cover;
         transform: rotateY(360deg);
 
-        // &.active {
-        //     transform: rotateY(180deg);
-        // }
+        .active & {
+            transform: rotateY(180deg);
+        }
     }
 
     &__suit {
@@ -113,15 +113,6 @@ body {
     &:hover {
         cursor: pointer;
     }
-
-    &:hover &__front {
-        transform: rotateY(-360deg);
-    }
-
-    &:hover &__back {
-        transform: rotateY(180deg);
-    }
-
 }
 
 .red {
