@@ -18,6 +18,9 @@ body {
     display: flex;
     align-items: center;
     font-family: $text-ff;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -62,6 +65,7 @@ body {
 
     &__front {
         transform: rotateY(-180deg);
+        background-color: #fff;
 
         .active & {
             transform: rotateY(-360deg);
